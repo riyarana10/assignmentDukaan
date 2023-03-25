@@ -1,0 +1,32 @@
+.main{
+    background-color: rgba(20, 110, 180, 0.05);
+    Width : 100%;
+    Height :332px;
+}
+.mainelement{
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 13%;
+}
+.mainelement h5{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    color: #1A181E;
+    margin-top: 5%;
+}
+.box{
+    Width : 352px;
+    Height : 48px;
+    text-align: center;
+}
+.box img{
+    Width :60px;
+    Height :60px;
+}
+.box p{
+    font-size: 16px;
+    color: #4D4D4D;
+    margin-top: 5%;
+}

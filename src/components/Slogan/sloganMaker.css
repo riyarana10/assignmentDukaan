@@ -1,0 +1,178 @@
+.main-container{
+    background-color: #FAFAFA;
+    width: 100%;
+    padding-bottom: 220px;
+}
+h1{
+    margin: 0;
+    font-size: 36px;
+    color: #1A181E;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.slogan-white-box{
+    position: relative;
+    z-index: 1;
+    top: 140px;
+    background-color: #ffffff;
+    margin: 0% 13%;
+    padding: 80px 192px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+    max-width: 1120px;
+}
+
+.slogan-white-box p{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #4D4D4D;
+    margin-top: 32px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.sloganmaker{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+.sloganmaker label{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+
+.input{
+    width: 352px;
+    height: 48px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 13px;
+    position: absolute;
+    margin-top: 1%;
+    font-family: "Galano Grotesque";
+}
+.cross{
+    position: absolute;
+    width: 11.7px;
+    height: 11.7px;
+    right: 53%;
+    top:16.70%;
+    cursor: pointer;
+    margin-top: 1%;
+    z-index: 1;
+}
+
+.generate-btn{
+    margin-top: 15%;
+}
+.generate{
+    width: 204px;
+    height: 50px;
+    background-color: #146EB4;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: "Galano Grotesque";
+}
+.line{
+    background-color: #D9D9D9;
+    margin-top: 7%;
+    width: 100%;
+    text-align: center;
+    border: none;
+    height: 1px;
+}
+.slogans-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7%;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #1A181E;
+}
+.download-btn{
+    border: 1px solid #146EB4;
+    background-color: #ffffff;
+    color: #146EB4;
+    border-radius: 4px;
+    height: 36px;
+    width: 134px;
+    font-size: 14;
+    font-weight: 400;
+    padding: 9.6px 22.4px;
+    cursor: pointer;
+    font-family: "Galano Grotesque";
+}
+.all-slogans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.page-list{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    list-style: none;
+}
+.page-div{
+    margin-left: 37.5%;
+}
+.page-btn{
+    background-color: #ffffff;
+    border: none;
+    color:#146EB4;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+.next-btn{
+    color: #146EB4;
+    display: flex;
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 34%;
+    width: 10%;
+
+}
+
+.page1{
+    width: 24px;
+    height: 24px;
+    padding-top: 2.2px;
+    background-color: #146EB4;
+    border-radius: 50%;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.next-icon{
+    margin-left: 5%;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    color: #1A181E;
+}

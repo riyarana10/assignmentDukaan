@@ -1,0 +1,27 @@
+.single-slogan {
+  display: flex;
+  align-items: center;
+  width: 352px;
+  padding: 19px 20px 19px 16px;
+  margin-bottom: 4%;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  color:#1A181E;
+  font-weight: 400;
+  font-family: "Galano Grotesque";
+  height: 60px;
+}
+
+.single-slogan:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: -8.5rem;
+  background-color: #4D4D4D;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-family: "Galano Grotesque";
+}
